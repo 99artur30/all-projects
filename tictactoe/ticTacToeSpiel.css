@@ -1,0 +1,32 @@
+.gameboard {
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.you {
+    background-color: white;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.btn:nth-child(1), .btn:nth-child(2), .btn:nth-child(3) {
+	border-top: none;
+}
+
+.btn:nth-child(1), .btn:nth-child(4), .btn:nth-child(7) {
+	border-left: none;
+}
+
+.btn:nth-child(3), .btn:nth-child(6), .btn:nth-child(9) {
+	border-right: none;
+}
+
+.btn:nth-child(7), .btn:nth-child(8), .btn:nth-child(9) {
+	border-bottom: none;
+}

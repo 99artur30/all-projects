@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.time {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    border: 1px solid;
+    background-color: #B89EB8;
+    cursor: pointer;
+    /* width: 50px; */
+    height: 25px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+
+body {
+    background-color: rgb(255, 208, 0);
+}

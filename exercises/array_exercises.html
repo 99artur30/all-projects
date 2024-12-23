@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function duplicate(number, array) {
+            console.log(fill(number, array))
+        };
+
+        function addElement() {
+            let array1 = [1, 3, 5, 7];
+            alert(array1);
+            let i = 0;
+            while (i < array1.length) {
+                i++;
+            }
+            console.log(i);
+            array1.push(2, 4, 6, 8);
+            alert(array1);
+            array1[19] = 20;
+            console.log(array1);
+        };
+
+        function removeElements() {
+            let array1 = [1, 2, 3, 4, 5, 6];
+            let array2 = array1.slice(0, -1);
+            let array3 = array2.slice(1);
+            alert(array3);
+        };
+
+        function combineElements() {
+            let array1 = [];
+            array1.push(0, 1, 2);
+            console.log(array1);
+            console.log(array1.join('+'));
+        };
+
+        function callArray(n, array1) {
+            if (array1.includes("call")) {
+                for (const element of array1) {
+                    console.log(n);
+                    n++;
+                }
+            };
+        };
+
+        function calcArray(array1) {
+            // const array1 = [1, 2, 3, 4];
+            var number = 0;
+            for (var element1 of array1) {
+                var number = number + element1;
+            }
+            console.log(number);
+
+        };
+
+        function expect(val) {
+            object1 = {
+                toBe(val) {
+                    if (val === val) {
+                        console.log("true");
+                    }
+                    else {
+                        console.log("not equal");
+                    }
+                },
+
+                notToBe(val) {
+                    if (val !== val) {
+                        console.log("true");
+                    }
+                    else {
+                        console.log("Equal");
+                    }
+                }
+            }
+            return object1;
+        }
+
+        function createCounter(number) {
+            var counter = {
+                increment: function (number) {
+                    number++;
+                    console.log(number);
+                    return number;
+                },
+                reset: function (number) {
+                    console.log(number);
+                    return number;
+                },
+                decrement: function (number) {
+                    number--;
+                    console.log(number);
+                    return number;
+                }
+            }
+            var obj1 = Object.create(counter);
+            return obj1;
+        }
+        // var obj1 = createCounter();
+        // obj1.increment(2);
+        // obj1.reset(2);
+        // obj1.decrement(2);
+
+        const array1 = (array2) => {
+            const map1 = array2.map((x) => x + 1)
+            return map1;
+        }
+
+        const array3 = (array4) => {
+            const map2 = array4.forEach((element) => {
+                console.log(element + 1);
+                return element + 1;
+            });
+        }
+
+        const array5 = () => {
+            var array6 = [1, 2, 3, 4, 6, 7, 678, 7686, 8768];
+            const filterarray = array6.filter(value => value > 5);
+            return filterarray;
+        }
+
+    </script>
+</body>
+
+</html>

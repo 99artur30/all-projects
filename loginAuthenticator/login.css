@@ -1,0 +1,23 @@
+.container {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+button {
+    justify-self: end;
+    margin-top: 10px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+input {
+    justify-self: center;
+    width: 200px;
+}
+
+.data {
+    border: 1px solid;
+    display: grid;
+    padding: 5px;
+    text-align: center;
+}

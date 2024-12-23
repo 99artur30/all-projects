@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=1380&t=st=1691316707~exp=1691317307~hmac=5ce031fbd947d69056a1517399f63f0c3047bfd8512d4ca325adf9adbcf7e9d3);
+}
+
+input[type="text"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.players {
+    height: 100px;
+}
